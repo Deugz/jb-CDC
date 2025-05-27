@@ -3,7 +3,56 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: ""
+    chapters:
+    - file: to-include
+  - caption: Design Systeme
+    chapters:
+    - file: Design-system/0-Fondations/Fondations-main
+      sections:
+      - file: Design-system/0-Fondations/couleurs
+      - file: Design-system/0-Fondations/typo
+      - file: Design-system/0-Fondations/icono
+      - file: Design-system/0-Fondations/grid-spacing 
+      - file: Design-system/0-Fondations/tokens
+    - file: Design-system/1-Composants/Composants-main
+      sections:
+      - file: Design-system/1-Composants/boutons    
+      - file: Design-system/1-Composants/formulaires 
+      - file: Design-system/1-Composants/modales    
+      - file: Design-system/1-Composants/cartes
+      - file: Design-system/1-Composants/tableaux
+    - file: Design-system/2-Patterns/Patterns-main
+      sections:
+      - file: Design-system/2-Patterns/navigation
+      - file: Design-system/2-Patterns/gestion-erreur
+      - file: Design-system/2-Patterns/chargement
+      - file: Design-system/2-Patterns/formulaires-complexes
+    - file: Design-system/3-Accessibilité/Accessibilité-main
+      sections:
+      - file: Design-system/3-Accessibilité/principes-generaux      
+      - file: Design-system/3-Accessibilité/contrastes
+      - file: Design-system/3-Accessibilité/navigation-clavier     
+      - file: Design-system/3-Accessibilité/aria
+    - file: Design-system/4-UX-Content/UX-content-main
+      sections:
+      - file: Design-system/4-UX-Content/voix-ton
+      - file: Design-system/4-UX-Content/microcopy
+      - file: Design-system/4-UX-Content/texte-erreur
+    - file: Design-system/5-Technique/Technique-main
+      sections:
+      - file: Design-system/5-Technique/structure-code
+      - file: Design-system/5-Technique/integration
+      - file: Design-system/5-Technique/nommage
+      - file: Design-system/5-Technique/tokens-technique
+    - file: Design-system/6-Gouvernance/Gouvernance-main
+      sections:
+      - file: Design-system/6-Gouvernance/equipe
+      - file: Design-system/6-Gouvernance/contribution
+      - file: Design-system/6-Gouvernance/changelog
+      - file: Design-system/6-Gouvernance/roadmap
+  - caption: Fonctionnalités
+    chapters:
+    - file: Fonctions/Sphinx/Sphinx-main
+      

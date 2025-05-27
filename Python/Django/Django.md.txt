@@ -1,0 +1,11 @@
+# Django
+
+## Site
+
+- [Django Project](https://www.djangoproject.com/)
+
+## Cours
+
+- [Open Classroom cours création](https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-framework-django)
+
+- [Open Classroom cours déployment](https://openclassrooms.com/fr/courses/4425101-deployez-une-application-django) 
